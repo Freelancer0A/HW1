@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HW1</string>
+
+    <string-array name="countriesCapitalMixed">
+        <item>"Moscow is the capital of Russia"</item>
+        <item>Tokyo is the capital of Japan</item>
+        <item>Manila is the capital of Poland</item>
+        <item>Tehran is the capital of Iran</item>
+        <item>Tripoli is the capital of Italy</item>
+        <item>Paris is the capital of France</item>
+        <item>Lisbon is the capital of Qatar</item>
+        <item>Ottawa is the capital of Canada</item>
+        <item>Bern is the capital of Switzerland</item>
+        <item>Juba is the capital of Spain</item>
+    </string-array>
+
+    <string-array name="cheat">
+        <item>Moscow is the capital of Russia</item>
+        <item>Tokyo is the capital of Japan</item>
+        <item>Warsaw is the capital of Poland</item>
+        <item>Tehran is the capital of Iran</item>
+        <item>Rome is the capital of Italy</item>
+        <item>Paris is the capital of France</item>
+        <item>Doha is the capital of Qatar</item>
+        <item>Ottawa is the capital of Canada</item>
+        <item>Bern is the capital of Switzerland</item>
+        <item>Madrid is the capital of Spain</item>
+    </string-array>
+</resources>
