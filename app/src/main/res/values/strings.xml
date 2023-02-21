@@ -1,5 +1,11 @@
-<resources>
-    <string name="app_name">HW1</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">HW1</string>
+    <string name="btnTrue">True</string>
+    <string name="btnFalse">false</string>
+    <string name="btnNext">Next</string>
+    <string name="btnPrev">prev</string>
+    <string name="btnCheat">CHEAT!</string>
+    <string name="tv_cheat_text">Are you sure you want to do this?</string>
 
     <string-array name="countriesCapitalMixed">
         <item>"Moscow is the capital of Russia"</item>
