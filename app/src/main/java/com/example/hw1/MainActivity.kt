@@ -46,12 +46,14 @@ class MainActivity : AppCompatActivity() {
                 //  update()
             } else if (viewModel.value[viewModel.currentQuestionsIndex] && hasCheat) {
                 Toast.makeText(this, "Cheating is Wrong.", Toast.LENGTH_SHORT).show()
+                hasCheat = false
             } else if (!viewModel.value[viewModel.currentQuestionsIndex] && hasCheat) {
                 Toast.makeText(
                     this,
                     "Despite the cheating, you still gave the wrong answer",
                     Toast.LENGTH_SHORT
                 ).show()
+                hasCheat = false
             } else {
                 viewModel.decreasePoint()
                 Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
